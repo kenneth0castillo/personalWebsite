@@ -1,19 +1,30 @@
 body{
-    /* background:url("http://hdqwalls.com/wallpapers/8-bit-pixel-art-city-2o.jpg"); */
+    /* background:url("https://steamusercontent-a.akamaihd.net/ugc/915793902528275756/21345F3219E73BAEB1DDDEC557ACB77BBC36CD0D/"); */
     background:url("https://i.pinimg.com/originals/e9/89/61/e9896186f55021eeb4a5f39fea811124.png");
-    background-size: cover;
+    /* background:url("https://wallpaperstudio10.com/static/wpdb/wallpapers/1920x1080/139331.jpg"); */
+    /* background: url("https://78.media.tumblr.com/9cff938216133142406c9f61970acd2f/tumblr_njjcz1NLp51rnbw6mo1_500.gif"); */
+    background-size: 100%;
+    height: 150%;
     overflow-y: scroll;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 #w{
     text-align: center;
     font-size: 72px;
     text-shadow: 1px 1px pink;
     margin-top: 25%;
-    margin-bottom: 25%;
+    margin-bottom: 10.838%;
     font-family: 'Press Start 2P', cursive;
+    /* content="";
+    clear: both ;
+    display:block; */
 }
 .about{
-    background-color: rgba(0, 0, 0, .25)
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.75),black);
+    /* background: #171d28; */
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 #am{
     font-size:45px;
@@ -23,5 +34,12 @@ body{
 }
 #t{
     color:pink;
-
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#git{
+    width: 40px
+}
+#in{
+    width: 40px;
 }
