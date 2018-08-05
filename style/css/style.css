@@ -34,7 +34,7 @@ body{
     text-align: center;
     text-shadow:1px 1px black
 }
-#t{
+.t{
     color: pink;
     text-shadow: 1px 1px black;
     margin-left: 10px;
