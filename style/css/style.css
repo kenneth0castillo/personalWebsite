@@ -1,19 +1,23 @@
 body{
-    background:url("https://i.pinimg.com/originals/e9/89/61/e9896186f55021eeb4a5f39fea811124.png");
+    /* background:url("https://i.pinimg.com/originals/e9/89/61/e9896186f55021eeb4a5f39fea811124.png"); */
+    background: url("https://steamuserimages-a.akamaihd.net/ugc/270598716228579115/72CD26E14B7FCBA028206A06F10548C0D5174CFC/");
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     overflow-y: scroll;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
+    font-family: 'Audiowide', cursive;
+    text-shadow:1px 1px Black;
 }
 
 #w{
     text-align: center;
     font-size: 72px;
     text-shadow: 1px 1px pink;
-    margin-top: 25%;
+    margin-top: 22.5%;
     margin-bottom: 10.838%;
     font-family: 'Press Start 2P', cursive;
 }
@@ -60,6 +64,8 @@ footer{
 #navbar{
     overflow: hidden;
     background:rgba(0,0,0, .5);
+    position: sticky;
+    top: 0;
 }
 #navbar a{
     float: left;
@@ -68,6 +74,7 @@ footer{
     text-align: center;
     padding: 14px;
     text-decoration: none;
+
 }
 * {box-sizing:border-box}
 
